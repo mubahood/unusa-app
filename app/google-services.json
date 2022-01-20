@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684381290124",
+    "project_id": "unusa-app-16ec5",
+    "storage_bucket": "unusa-app-16ec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684381290124:android:9214249097852c3e73c5a9",
+        "android_client_info": {
+          "package_name": "app.unusa.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684381290124-nb6ffe6qj9uj9flsb29b78tjb4hn5g3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.unusa.app",
+            "certificate_hash": "ddf7e213d1f9f54ff340e24c5446987b2aa0f0be"
+          }
+        },
+        {
+          "client_id": "684381290124-snsh6qcrnt7kbseobkthh7g8djir9drr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHCcPMeHLE4gKwgR7ToHKcnCAKO2PDRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684381290124-snsh6qcrnt7kbseobkthh7g8djir9drr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

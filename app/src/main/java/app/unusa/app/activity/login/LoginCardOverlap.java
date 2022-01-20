@@ -1,0 +1,38 @@
+package app.unusa.app.activity.login;
+
+import android.content.Intent;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+import app.components.R;
+import app.unusa.app.activity.DashboardMain;
+import app.unusa.app.utils.Tools;
+
+public class LoginCardOverlap extends AppCompatActivity {
+
+    private View parent_view;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login_card_overlap);
+
+        parent_view = findViewById(android.R.id.content);
+
+        ((View) findViewById(R.id.sign_up)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(parent_view, "Sign Up", Snackbar.LENGTH_SHORT).show();
+            }
+        });
+
+        Tools.setSystemBarColor(this);
+    }
+
+    public void openMainDashboard(View view) {
+        Intent i = new Intent(this, DashboardMain.class);
+        this.startActivity(i);
+    }
+}
